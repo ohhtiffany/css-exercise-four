@@ -7,13 +7,35 @@ body {
   font-size: 10px;
 }
 
-img {
-  width: 400px;
+.previewBaku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
+.previewLondon{
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewMadrid{
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewRome{
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
 .container {
-  margin: 20px auto;
+  margin: 20px;
   width: 90%;
 }
 
@@ -21,6 +43,7 @@ img {
 div {
   width: 100%;
   float: left;
+  min-height: 350px;
 }
 
 h1 {
